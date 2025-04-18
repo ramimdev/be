@@ -1,3 +1,19 @@
+  
+<link href='https://cdn.jsdelivr.net/gh/ourislambd/cntract/arcontactus.min.css' rel='stylesheet' type='text/css'/>
+<script src='https://ourislambd.github.io/cntract/helpline.js' type='text/javascript'/>
+<script src='https://ourislambd.github.io/cntract/contract.js' type='text/javascript'/>
+<div id='arcontactus'/>
+
+
+
+
+
+
+
+
+
+
+
 var arCuMessages = ["Hi, I'm Rubel", "How can I help you", "You can share your problem with us", "We will try to solve it"];
 
 var arCuLoop = false;
@@ -80,7 +96,7 @@ window.addEventListener('load', function() {
 
   arcItem.title = 'Whatsapp';
 
-  arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>';
+  arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2zM224 342c-65.9 0-119.4-53.5-119.4-119.4S158.1 103.2 224 103.2 343.4 156.7 343.4 222.6 289.9 342 224 342zm71.3-90.4c-2.6-1.3-15.4-7.6-17.8-8.5-2.4-.9-4.1-1.3-5.9 1.3s-6.8 8.5-8.3 10.3-3.1 1.9-5.7.6c-2.6-1.3-11-4.1-21-13.2-7.8-6.9-13.1-15.4-14.6-18s-.2-4 .9-5.3c.9-1 2.6-3.1 3.9-4.7 1.3-1.5 1.7-2.6 2.6-4.3s.4-3.2-.2-4.5c-.6-1.3-5.9-14.1-8.1-19.2-2.1-5.1-4.2-4.4-5.7-4.5-1.5-.1-3.2-.1-4.9-.1s-4.5.6-6.9 3.2-9.1 8.9-9.1 21.7 9.3 25.1 10.6 26.9c1.3 1.7 18.2 27.7 44.1 38.9 6.2 2.7 11 4.3 14.8 5.5 6.2 2 11.9 1.7 16.4 1 5-0.8 15.4-6.3 17.6-12.4 2.1-6.1 2.1-11.4 1.5-12.4-.6-.9-2.4-1.5-5-2.7z"></path></svg>';
 
   arcItem.href = 'https://wa.me/8801771687270';
 
