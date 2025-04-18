@@ -33,7 +33,7 @@ window.addEventListener('load', function() {
     arCuCreateCookie('arcu-closed', 1, 30);
   });
 
-  // Facebook Messenger (নতুন আইকন)
+  // Facebook Messenger
   var arcItem = {};
   arcItem.id = 'msg-item-1';
   arcItem.class = 'msg-item-facebook-messenger';
@@ -43,17 +43,17 @@ window.addEventListener('load', function() {
   arcItem.color = '#006AFF';
   arcItems.push(arcItem);
 
-  // WhatsApp (নতুন আইকন)
+  // WhatsApp (Updated Icon)
   var arcItem = {};
   arcItem.id = 'msg-item-6';
   arcItem.class = 'msg-item-whatsapp';
   arcItem.title = 'WhatsApp';
-  arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L4 480l134.8-35.4c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-15.6-17.1-21.2-4.5-5.6-3-8.5 1.7-13.3 4.7-4.8 9.8-12.4 14.8-19.9 1.9-3.1 3.8-6.3 5.6-9.5 1.8-3.2.9-6-1.3-8.3-2.2-2.3-6-5.6-8.3-7.5-2.3-1.9-4.8-2-7.4-1.1-2.6.9-16 7.6-22.8 11.6-7.3 4.3-12.6 7.1-17.2 11.6-4.6 4.5-9.4 13.4-4.6 26.2s16.1 39.4 25.4 53.3c22.7 33.7 52.2 57.9 87.4 72.8 15.2 6.5 27.3 10.5 37.4 13.1 13.9 3.6 26.6 3.1 36.5 1.8 10.8-1.5 33-13.1 37.6-25.6 4.6-12.5 4.6-23.3 3.2-25.6-1.4-2.3-5-3.9-10.5-6.6z"/></svg>';
+  arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>';
   arcItem.href = 'https://wa.me/8801771687270';
   arcItem.color = '#25D366';
   arcItems.push(arcItem);
 
-  // Email (আইকন একই রাখা হয়েছে)
+  // Email
   var arcItem = {};
   arcItem.id = 'msg-item-7';
   arcItem.class = 'msg-item-envelope';
@@ -63,7 +63,7 @@ window.addEventListener('load', function() {
   arcItem.color = '#FF643A';
   arcItems.push(arcItem);
 
-  // Phone Call (নতুন আইকন)
+  // Phone Call
   var arcItem = {};
   arcItem.id = 'msg-item-8';
   arcItem.class = 'msg-item-phone';
@@ -77,3 +77,29 @@ window.addEventListener('load', function() {
     items: arcItems
   });
 });
+
+// Cookie functions (if not already defined)
+function arCuCreateCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+function arCuGetCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
+function arCuShowMessages() {
+  // Your existing message display logic here
+}
