@@ -51,7 +51,7 @@ window.addEventListener('load', function () {
   // WhatsApp
   arcItems.push({
     id: 'msg-item-6',
-    class: 'msg-item-skype',
+    class: 'msg-item-whatsapp',
     title: 'WhatsApp',
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
              <path fill="currentColor" d="M380.9 97.1C339-2.1 234.2-28.4 143.7 22.2 60.5 68.5 30.7 175 80 256.9l-33.5 99.6 102.2-33.6c81.5 47.7 187.5 18.6 234-63.3 39.5-67.5 29.2-154.8-28.3-199.5zM224 392c-40.5 0-78.1-15.8-106.5-41.5l-47.3 15.5 15.7-46.7C64 289.5 48 257.6 48 224c0-97.2 78.8-176 176-176s176 78.8 176 176-78.8 176-176 176z"/>
@@ -76,7 +76,7 @@ window.addEventListener('load', function () {
   arcItems.push({
     id: 'msg-item-8',
     class: 'msg-item-phone',
-    title: 'Call 01839950240',
+    title: 'Call 01771687270',
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
              <path fill="currentColor" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/>
            </svg>`,
