@@ -1,4 +1,9 @@
-var arCuMessages = ["Hi, I'm Rubel", "How can I help you", "You can share your problem with us", "We will try to solve it"];
+var arCuMessages = [
+  "Hi, I'm Rubel",
+  "How can I help you",
+  "You can share your problem with us",
+  "We will try to solve it"
+];
 
 var arCuLoop = false;
 var arCuCloseLastMessage = false;
