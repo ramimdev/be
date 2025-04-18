@@ -1,19 +1,3 @@
-  
-<link href='https://cdn.jsdelivr.net/gh/ourislambd/cntract/arcontactus.min.css' rel='stylesheet' type='text/css'/>
-<script src='https://ourislambd.github.io/cntract/helpline.js' type='text/javascript'/>
-<script src='https://ourislambd.github.io/cntract/contract.js' type='text/javascript'/>
-<div id='arcontactus'/>
-
-
-
-
-
-
-
-
-
-
-
 var arCuMessages = ["Hi, I'm Rubel", "How can I help you", "You can share your problem with us", "We will try to solve it"];
 
 var arCuLoop = false;
